@@ -21,3 +21,8 @@ if(Qt6_VERSION VERSION_LESS NEBULA_QT_VERSION)
         "-DQt6_DIR=<Qt>/lib/cmake/Qt6")
 endif()
 
+add_subdirectory(CartographiePlugin)
+
+# The QTest executables of tests/, run by ctest from the build directory.
+enable_testing()
+add_subdirectory(tests)

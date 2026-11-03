@@ -1,0 +1,6 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+    <qresource prefix="/CartographiePlugin/data">
+        <file>ne_110m_land.geojson</file>
+    </qresource>
+</RCC>
